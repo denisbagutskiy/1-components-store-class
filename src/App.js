@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {ShopItem} from './components/ShopItem'
+import { ShopItemModel } from './models/ShopItemModel';
 
 function App() {
+
+  const item = new ShopItemModel();
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="background-element">
+      </div>
+      <div className="highlight-window">
+        <div className='highlight-overlay'></div>
+      </div>
+      <div className="window">
+        <ShopItem item={item} />
+      </div>
     </div>
   );
+
 }
 
 export default App;
