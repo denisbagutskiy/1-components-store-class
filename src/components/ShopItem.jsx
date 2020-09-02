@@ -28,5 +28,3 @@ export class ShopItem extends React.Component {
         </div>
     };
 } 
-
-ShopItem.propTypes = PropTypes.instanceOf(ShopItemModel);
