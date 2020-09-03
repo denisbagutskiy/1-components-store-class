@@ -11,7 +11,7 @@ export class ShopItem extends React.Component {
     }
 
     render() {
-        const {brand, title, description, descriptionFull, price, currency} = this.props.item;
+        const { brand, title, description, descriptionFull, price, currency } = this.props.item;
 
         return <div className="shop-item">
             <h2>{brand}</h2>
