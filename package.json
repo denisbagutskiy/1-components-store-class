@@ -1,5 +1,5 @@
 {
-  "name": "1-components-store-func",
+  "name": "1-components-store-class",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
